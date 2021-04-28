@@ -1,0 +1,21 @@
+{
+    "name": "nuvu",
+    "version": "1.0.0",
+    "description": "Proyecto nuvu",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.local.js"
+    },
+    "author": "Andres Buitrago",
+    "license": "ISC",
+    "dependencies": {
+        "aws-serverless-express": "^3.4.0",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.12.5"
+    },
+    "devDependencies": {}
+}
